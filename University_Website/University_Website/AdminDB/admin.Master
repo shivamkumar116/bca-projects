@@ -1,0 +1,60 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="admin.master.vb" Inherits="University_Website.admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>University of Palampur- Admin Dashboard</title>
+    <link href="../bootstrap-3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../Css/master.css" rel="stylesheet" type="text/css" />
+    <link href="../Css/adminDB.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="container-fluid">
+        <div class="row" id="adminHeader">
+            <div class="col-lg-8">
+                <img src="../Images/logo.png" height="50px" width="50px" />&nbsp;
+                <h5 id="adminLogo">
+                    University of Palampur</h5>
+            </div>
+            <div class="col-lg-4 text-right">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                        class="fa fa-user"></span>&nbsp;Account<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="basicDetails.aspx"><span class="fa fa-cog"></span> &nbsp;Basic Detail</a></li>
+                            <li class="divider"></li>
+                            <li>
+                                <asp:LinkButton ID="lnkbtnLogOut" runat="server"><span class="fa fa-sign-out "></span> &nbsp;Logout</asp:LinkButton></li> 
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+          
+                <div class="col-lg-2" id="sideMenu">
+                    <ul class="nav nav-tabs-justified" style="margin-top: 5%;" id="sideNavLink">
+                        <li><a href="AdminDB.aspx"><span class="fa fa-dashboard"></span>&nbsp;Dashboard</a></li>
+                        <li><a href="coursesDB.aspx"><span class="fa fa-book"></span>&nbsp;Courses</a></li>
+                        <li><a href="galleryDB.aspx"><span class="fa fa-image"></span>&nbsp;Gallery</a></li>
+                        <li><a href="News.aspx"><span class="fa fa-newspaper-o "></span>&nbsp;News and Events</a></li>
+                        <li><a href="studentsDB.aspx"><span class="fa fa-child"></span>&nbsp;Students</a></li>
+                        <li><a href="queryDB.aspx"><span class="fa fa-comment"></span>&nbsp;Contact Query</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-10">
+                    <div class="container-fluid">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../bootstrap-3.3.7/dist/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>

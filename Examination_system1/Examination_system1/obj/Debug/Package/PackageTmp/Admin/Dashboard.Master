@@ -1,0 +1,43 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Dashboard.master.vb " Inherits="Examination_system1.Dashboard1" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" href="../CSS/global.css" type="text/css" />
+     <link rel="Stylesheet" href="../CSS/Content.css" type="text/css" />
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/Input.css" rel="stylesheet" type="text/css" />
+  
+    <title>Examination System</title>
+   
+    </head>
+<body>
+    <form runat="server">
+    <div class="header">
+        <div class="logo">
+            <a href="Dashboard.aspx"><i class ="fa fa-mortar-board"></i>&nbsp;Examination&nbsp;System</a>
+            </div>
+            <div class="Profile">
+                <i class="fa fa-user"></i>&nbsp;Welcome Admin&nbsp;! &nbsp; 
+                <asp:Button ID="BtnLogout" runat="server" Text="Logout" class="btn btn-info" />
+            </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <ul id="nav"> 
+               <li> <a href="Dashboard.aspx" id="LinkDb" runat ="server"><i class="fa fa-dashboard"></i>&nbsp;Dashboard</a></li>
+                <li><a href="AddStudent.aspx" id="LinkAddStudent" runat ="server"><i class="fa fa-users "></i>&nbsp;Add Students </a></li>
+                <li><a href="Update.aspx" id="LinkEdit" runat ="server"><i class="fa fa-edit "></i>&nbsp;Edit Student Details</a></li>
+                <li><a href="ExamInstruction1.aspx" id="LinkExam" runat ="server" ><i class="fa fa-book "></i>&nbsp;Set Exam</a></li>
+                <li><a href="ViewExam.aspx" id="ViewExam" runat ="server" ><i class="fa fa-question-circle  "></i>&nbsp;View Papers</a></li>
+                <li> <a href="Result.aspx" id="LinkResult" runat ="server"> <i class="fa fa-search "></i>&nbsp;Check Result</a></li>
+                <li><a href="Reports.aspx" id="LinkReport" runat ="server"><i class="fa fa-bar-chart  "></i>&nbsp;Reports</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

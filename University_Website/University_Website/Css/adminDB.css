@@ -1,0 +1,49 @@
+﻿#adminHeader
+{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+}
+#sideMenu
+{
+    height: 620px;
+    background-color: #f2f2f2;
+}
+h5#adminLogo
+{
+    display: inline-block;
+    color: crimson;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ul li a
+{
+    color: Black;
+}
+ul li a:hover
+{
+    color: crimson;
+}
+
+ul#sideNavLink li a
+{
+    display: block;
+    margin-top: 10%;
+}
+div#newCourse
+{
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-width: 150px;
+}
+.upload-image
+{
+    height: 300px;
+    width: 600px;
+}
+.margin
+{
+    padding-top: 20px;
+    
+    
+    }
+

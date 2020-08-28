@@ -1,0 +1,20 @@
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\bin\University_Website.dll
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\bin\University_Website.pdb
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\bin\University_Website.xml
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\University_Website.Resources.resources
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\University_Website.dll
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\University_Website.xml
+C:\Users\Shivam\Documents\Visual Studio 2010\Projects_college\University_Website\University_Website\obj\Debug\University_Website.pdb
+E:\Project\University_Website\University_Website\bin\University_Website.dll
+E:\Project\University_Website\University_Website\bin\University_Website.pdb
+E:\Project\University_Website\University_Website\bin\University_Website.xml
+E:\Project\University_Website\University_Website\obj\Debug\ResolveAssemblyReference.cache
+E:\Project\University_Website\University_Website\obj\Debug\University_Website.Resources.resources
+E:\Project\University_Website\University_Website\obj\Debug\GenerateResource.read.1.tlog
+E:\Project\University_Website\University_Website\obj\Debug\GenerateResource.write.1.tlog
+E:\Project\University_Website\University_Website\obj\Debug\University_Website.dll
+E:\Project\University_Website\University_Website\obj\Debug\University_Website.xml
+E:\Project\University_Website\University_Website\obj\Debug\University_Website.pdb

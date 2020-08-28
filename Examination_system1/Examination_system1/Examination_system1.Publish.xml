@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\Project\Published" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Admin/Reports.aspx" publishTime="05/23/2017 18:45:28" />
+    <file relUrl="StudentReg.aspx" publishTime="03/01/2018 16:13:20" />
+    <file relUrl="Admin/Update.aspx" publishTime="05/23/2017 23:32:26" />
+    <file relUrl="Client/FeedBack.aspx" publishTime="05/22/2017 21:43:28" />
+    <file relUrl="Admin/ExamInstruction1.aspx" publishTime="05/23/2017 22:49:12" />
+    <file relUrl="bin/Examination_system1.xml" publishTime="03/01/2018 16:10:22" />
+    <file relUrl="Client/instruction.aspx" publishTime="05/24/2017 00:08:22" />
+    <file relUrl="Admin/Result.aspx" publishTime="05/24/2017 00:26:06" />
+    <file relUrl="Client/MainExam.aspx" publishTime="05/24/2017 07:35:48" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="04/29/2017 14:32:52" />
+    <file relUrl="CSS/buttons.css" publishTime="05/13/2017 22:44:56" />
+    <file relUrl="CSS/global.css" publishTime="05/22/2017 19:16:24" />
+    <file relUrl="CSS/Exam.css" publishTime="05/22/2017 22:05:36" />
+    <file relUrl="Admin/ViewExam.aspx" publishTime="05/22/2017 23:18:52" />
+    <file relUrl="CSS/Content.css" publishTime="05/22/2017 19:16:06" />
+    <file relUrl="CSS/bootstrap.css" publishTime="05/22/2017 23:09:32" />
+    <file relUrl="Db/ExamDb.accdb" publishTime="12/17/2017 19:39:04" />
+    <file relUrl="font-awesome/css/font-awesome.css" publishTime="03/15/2017 07:33:48" />
+    <file relUrl="Admin/SetExam.aspx" publishTime="05/23/2017 17:10:30" />
+    <file relUrl="Admin/AddStudent.aspx" publishTime="05/23/2017 22:38:32" />
+    <file relUrl="CSS/Input.css" publishTime="04/02/2017 21:43:26" />
+    <file relUrl="Client/StudentResult.aspx" publishTime="05/22/2017 21:48:14" />
+    <file relUrl="font-awesome/css/font-awesome.min.css" publishTime="03/15/2017 07:33:48" />
+    <file relUrl="Login.aspx" publishTime="03/01/2018 16:11:52" />
+    <file relUrl="Admin/Dashboard.aspx" publishTime="05/19/2017 15:47:58" />
+    <file relUrl="images/loader.gif" publishTime="04/29/2017 14:36:12" />
+    <file relUrl="bin/Examination_system1.dll" publishTime="03/01/2018 16:10:22" />
+    <file relUrl="Admin/Dashboard.Master" publishTime="05/22/2017 20:54:34" />
+    <file relUrl="bin/Examination_system1.pdb" publishTime="03/01/2018 16:10:22" />
+    <file relUrl="Web.config" publishTime="05/24/2017 07:36:22" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,92 @@
+﻿div.head
+{
+    color: White;
+}
+.head p 
+{
+    color:#424242;
+    font-size : 0.72em;
+}
+div.box
+{
+    margin-top : 15px;
+    
+}
+div.box .box-top
+{
+    color:#fff;
+    text-shadow: 0px 0px 1px #ddd;
+    background-color : #2980b9;
+    padding : 13px;
+    font-size:1em;
+    
+}
+div.box .box-panel
+{
+    padding : 15px;
+    background-color : #fff;
+    
+}
+div.box .box-panel1
+{
+    padding : 15px;
+    background-color : #fff;
+    display :inline-block ;
+}
+div.box .box-panel p 
+{
+    color:Red;
+}
+div.box .box-panel table
+{
+   
+    width :84%;
+    padding-bottom : 0.5px;
+    overflow : auto;
+   
+  
+    }
+    
+
+div.box .box-panel table td 
+{
+    font-size : 1.2em;
+     
+    
+}
+div.box .box-panel table td span
+{
+    color: Red;
+    font-size : 0.7em;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   
+}
+span#tooltip_not_visited 
+{
+    color:white;
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   
+}
+a.link
+{
+    text-decoration :none;
+    color: Blue;    
+}
+a:hover.link
+{
+    text-decoration : underline;
+    color: Orange;
+    
+}
+ a:visited.link
+{
+    text-decoration : none;
+    color: blue;
+    
+}
